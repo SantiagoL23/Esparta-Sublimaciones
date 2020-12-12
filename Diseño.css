@@ -68,11 +68,10 @@ header nav a:hover{
 }
 
 .fondo{
- margin-top:15px;
+    margin-top:15px;
     color:#fff;
     min-height:320px;
     background:url("img/76f23ef08dc1ebabf4589ca0daa1fc14.jpg");
-   
     display:flex;
 }
 
@@ -123,6 +122,8 @@ header nav a:hover{
     padding:3px;
     border-radius:15px;
     transition:0.2s;
+    flex-wrap: wrap;
+    min-width:205px;
   
 }
 
@@ -149,8 +150,11 @@ header nav a:hover{
 }
 
 .section2 .mapa{
+  position:relative;
     margin:60px;
     border-radius:15px;
+    min-width:300px;
+    min-height:300px;
     
 }
 
@@ -162,6 +166,7 @@ box-shadow:2px 2px 10px  rgba(155, 155, 155, 0.521);
 .section2{
     display:flex;
     justify-content: space-between;
+    
 
 }
 
@@ -170,7 +175,7 @@ box-shadow:2px 2px 10px  rgba(155, 155, 155, 0.521);
     font-size:60px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 200;
-    margin-right:300px;
+    margin-right:400px;
 }
 .section2 .descripcion::first-line{
     font-weight: 400;
@@ -181,8 +186,8 @@ box-shadow:2px 2px 10px  rgba(155, 155, 155, 0.521);
 .informacion{
    position:absolute;
     color:rgba(255, 255, 255, 0.918);
-    width:60%;
-    margin:-220px 0px 0px 482px;
+    width:45%;
+    margin:-220px 0px 0px 450px;
     
 }
 
@@ -201,4 +206,31 @@ box-shadow:2px 2px 10px  rgba(155, 155, 155, 0.521);
 .p_footer:hover{
    color:rgb(72, 218, 255);
     
+}
+
+@media (max-width:1012px){
+
+header .contenedor{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+       
+header .logo{
+margin:2px;
+
+}
+header #input_buscar{
+margin: 1px;
+margin-bottom:4px;
+}
+
+.muestra:hover{
+    width:205px;
+    height:270px;
+}
+.informacion{
+    min-width:40%;
+}
+
 }
