@@ -148,13 +148,19 @@ header nav a:hover{
     font-weight: 300;
     font-size:38px;
 }
+.section2{
+    display:flex;
+    justify-content: space-between;
+    
+    
 
+}
 .section2 .mapa{
-  position:relative;
+  
     margin:60px;
     border-radius:15px;
-    min-width:300px;
-    min-height:300px;
+    width:300px;
+    height:300px;
     
 }
 
@@ -163,12 +169,6 @@ box-shadow:2px 2px 10px  rgba(155, 155, 155, 0.521);
 }
 
 
-.section2{
-    display:flex;
-    justify-content: space-between;
-    
-
-}
 
 .section2 .descripcion{
     color:rgba(255, 255, 255, 0.664);
@@ -187,7 +187,7 @@ box-shadow:2px 2px 10px  rgba(155, 155, 155, 0.521);
    position:absolute;
     color:rgba(255, 255, 255, 0.918);
     width:45%;
-    margin:-220px 0px 0px 450px;
+    margin:-220px 0px 0px 500px;
     
 }
 
@@ -229,8 +229,15 @@ margin-bottom:4px;
     width:205px;
     height:270px;
 }
+
 .informacion{
-    min-width:40%;
+    margin:-220px 0px 0px 428px;
 }
 
+}
+
+@media(max-width:1269px){
+    .informacion{
+        margin:-220px 0px 0px 428px;
+    }
 }
