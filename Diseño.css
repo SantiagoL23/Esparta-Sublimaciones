@@ -210,6 +210,12 @@ box-shadow:2px 2px 10px  rgba(155, 155, 155, 0.521);
 
 @media (max-width:1012px){
 
+.fondo .titulo {
+    font-size: 39px;
+}
+    .design{
+    justify-content:center;
+}
 .contenedor_tarjetas{
     display:block;
    
@@ -256,7 +262,10 @@ header nav a{
    justify-content: space-between;
     
 }
-
+header #input_buscar:focus{
+    padding:5px 95px;
+    background:rgba(255, 255, 255, 0.87);
+    }
 .design{
     display:none;
 }
